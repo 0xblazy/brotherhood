@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "brotherhood",
+	"version": "${version}",
+	"name": "Brotherhood",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Nicolas \"0xBlaZy\" Carbonnier"
+	],
+	"contact": {
+		"homepage": "https://0xblazy.xyz",
+		"sources": "https://github.com/0xblazy/brotherhood"
+	},
+	"license": "MIT",
+	"icon": "assets/brotherhood/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"0xblazy.brotherhood.ExampleMod"
+		],
+		"client": [
+			"0xblazy.brotherhood.ExampleModClient"
+		],
+		"fabric-datagen": [
+			"0xblazy.brotherhood.ExampleModDataGenerator"
+		]
+	},
+	"mixins": [
+		"brotherhood.mixins.json",
+		{
+			"config": "brotherhood.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
