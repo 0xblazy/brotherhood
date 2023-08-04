@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "0xblazy.brotherhood.mixin",
+	"package": "hexblazy.brotherhood.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

@@ -1,4 +1,4 @@
-package 0xblazy.brotherhood;
+package hexblazy.brotherhood;
 
 import net.fabricmc.api.ModInitializer;
 

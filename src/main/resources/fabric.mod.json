@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"0xblazy.brotherhood.ExampleMod"
+			"hexblazy.brotherhood.ExampleMod"
 		],
 		"client": [
-			"0xblazy.brotherhood.ExampleModClient"
+			"hexblazy.brotherhood.ExampleModClient"
 		],
 		"fabric-datagen": [
-			"0xblazy.brotherhood.ExampleModDataGenerator"
+			"hexblazy.brotherhood.ExampleModDataGenerator"
 		]
 	},
 	"mixins": [

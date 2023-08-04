@@ -1,4 +1,4 @@
-package 0xblazy.brotherhood.mixin;
+package hexblazy.brotherhood.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
